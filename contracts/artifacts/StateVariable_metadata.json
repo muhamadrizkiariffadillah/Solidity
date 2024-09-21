@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMyNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/04 State variable.sol": "StateVariable"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/04 State variable.sol": {
+			"keccak256": "0x9397384bc33f21b1714e43f6b453aacc39f18bb38401ee73e4337c57726c89ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa875cde13666a8e9da00f0020cd12d2ed5da7411ea259a1e3fa72016e44faf9",
+				"dweb:/ipfs/QmVi1GDRHA1pDktB5wFDcds2bFFxvjNeGCn6J9Mv1gCEbv"
+			]
+		}
+	},
+	"version": 1
+}
