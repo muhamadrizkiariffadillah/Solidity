@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "while_example",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "result",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/14 while loop.sol": "WhileExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/14 while loop.sol": {
+			"keccak256": "0x9184f0c1fc03b71e5c9ef3b1efceed0b96a2acd50d5de04782f1c8d7ac8ee686",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c1070e7a014b07ed3ae5ad111f45873f7edfd78818b0d497e0d0f1ad6869f45e",
+				"dweb:/ipfs/QmfCWjXyaFM8LfG2VwnmcWBBvjFP1AP1y15sVx2GZfjeCs"
+			]
+		}
+	},
+	"version": 1
+}

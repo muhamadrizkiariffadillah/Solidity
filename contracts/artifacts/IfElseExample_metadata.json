@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "input",
+						"type": "uint256"
+					}
+				],
+				"name": "IfElse",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12 if-else.sol": "IfElseExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12 if-else.sol": {
+			"keccak256": "0x4eb910addbaddfd3cf7299ada75550720a0dfe7fd0529948f46f2beef0305538",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f1eb206dab904ff42ed60a0b27aedad838e11c622aa835eea6e53b3066e10089",
+				"dweb:/ipfs/QmaWQ6z9DpdJZvR5ugSan6CAc8GD7wdMnBzrvNVAK2p7iV"
+			]
+		}
+	},
+	"version": 1
+}
