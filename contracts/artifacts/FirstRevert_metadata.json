@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "onlyOwner",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/17 revert1.sol": "FirstRevert"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/17 revert1.sol": {
+			"keccak256": "0x75b3a856b2ffb8b66ef4a83c4e8b4ab59863863671bb5d009987958054f4e7fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://876759f9ef625bf50849d985059039e66afda68df89a97bfc0ee6c275b788398",
+				"dweb:/ipfs/QmYoA5ZjiUAYqmQTvmU91FaTqA6CFMGxX75Ncbvu7d75UX"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_balance",
+						"type": "int256"
+					}
+				],
+				"name": "fillBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/16 assert.sol": "AssretExamplae"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/16 assert.sol": {
+			"keccak256": "0x6deb44152f50c1efeb912600158b3e10f85642a19e9d6ae78d6aece4d0a2d399",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://275fe6f9c60821837c4fcfc65c9303eb8fc06a8757d7bfdb693bfcac6648ad18",
+				"dweb:/ipfs/Qmf3PjKqBuH8qcgzT2LDLkbaQj9jTuGBcWjJWoTbmus1MZ"
+			]
+		}
+	},
+	"version": 1
+}
