@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_initialNumber",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "storedNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "a contract that stores an uint during development.",
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "Constructor initializes the contract by storing an initial value.",
+					"params": {
+						"_initialNumber": "the value to be store initially."
+					}
+				}
+			},
+			"title": "basic storage.",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/19 constructor 1 .sol": "BasicStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/19 constructor 1 .sol": {
+			"keccak256": "0x4039eef1efe31537d13d5f0979f4c2930bfcd0a3870d3d546381414468a912c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7182b999ccdfe287d52fbd61589e4665970332ed715b66ddefd36c8dab614364",
+				"dweb:/ipfs/Qmc3bnqMvcwpfUgtzjhKyCJuzNieK1nir4Xk3to7MqCGGE"
+			]
+		}
+	},
+	"version": 1
+}
