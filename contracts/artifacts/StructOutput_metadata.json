@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "wallet",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/23 return outputs 2.sol": "StructOutput"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/23 return outputs 2.sol": {
+			"keccak256": "0x63f56c98adaf2e9514d339a9d38f9f26344c8f6e6698e9cb09c6d81c46daf463",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://296a4dc261e36c0847d39280616124ba4c5b9076c9b7331d19211861ba01e4e3",
+				"dweb:/ipfs/QmUxaNVgRARMPsE7jPWSLwSzPtkBKbTrtgGrsdjB2mkdJs"
+			]
+		}
+	},
+	"version": 1
+}
