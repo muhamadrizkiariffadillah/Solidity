@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "defaultBytes",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Updraft/01 Solidity variable.sol": "SimpleStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Updraft/01 Solidity variable.sol": {
+			"keccak256": "0xaca12ea3f850c826f63389093121a49dadab900fb1c00388a1a9a005871ce02c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b66fcf0e0b9d87b7f0fd48e1b99052dd0bc0fe563a48c041d3bd030f5c6d3bed",
+				"dweb:/ipfs/QmQtT9y4GMgqeAzSHvGNXbao7YouotQKVoS8H8vr5HCuCJ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "myFavoriteNumber",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "FullName",
+								"type": "string"
+							},
+							{
+								"internalType": "uint16",
+								"name": "Age",
+								"type": "uint16"
+							},
+							{
+								"internalType": "address",
+								"name": "myWallet",
+								"type": "address"
+							}
+						],
+						"internalType": "struct SimpleStruct.Person",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_FavoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_FullName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_Age",
+						"type": "uint16"
+					},
+					{
+						"internalType": "address",
+						"name": "_wallet",
+						"type": "address"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Updraft/04 struct.sol": "SimpleStruct"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Updraft/04 struct.sol": {
+			"keccak256": "0xbd97748731de792fb431b191bc900bda705a4413ad2aa7a0af7076b4186543f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cb65e701ef7585f014aa0df295c05dd6d13fe28b700582e61bf5c6254243a26c",
+				"dweb:/ipfs/Qmdd6QFJiQsQ2qpDkvATep6rnL9rHs1Pg4JoehaaJ2379C"
+			]
+		}
+	},
+	"version": 1
+}
