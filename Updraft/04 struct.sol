@@ -24,3 +24,22 @@ contract SimpleStruct{
         return student;
     }
 }
+
+contract ArrayOfStruct{
+
+    struct Students{
+        uint256 Id;
+        string FullName;
+        address Wallet;
+    }
+
+    Students[] public ListOfStudents;
+
+    function input(uint256 _id,string memory _fullName,address _wallet)public {
+        ListOfStudents.push(Students({
+            Id: _id,
+            FullName: _fullName,
+            Wallet: _wallet
+        }));
+    }
+}
