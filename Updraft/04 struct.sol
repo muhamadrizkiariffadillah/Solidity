@@ -33,13 +33,16 @@ contract ArrayOfStruct{
         address Wallet;
     }
 
+    mapping(string=>address) public getAddress;
+
     Students[] public ListOfStudents;
 
-    function input(uint256 _id,string memory _fullName,address _wallet)public {
+    function input(uint256 _id,string calldata _fullName,address _wallet)public {
         ListOfStudents.push(Students({
             Id: _id,
             FullName: _fullName,
             Wallet: _wallet
         }));
+        getAddress[_fullName] = _wallet;
     }
 }

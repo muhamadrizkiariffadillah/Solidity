@@ -37,6 +37,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_id",
 						"type": "uint256"
@@ -86,11 +105,11 @@
 	},
 	"sources": {
 		"Updraft/04 struct.sol": {
-			"keccak256": "0xedabbdd5a549e053998c6681d4ab5175f904275a3a68a4ad643295cf08d8dfc3",
+			"keccak256": "0x02a9c77e9f579ca578cb67ffdffa12ac7acdda540415b97dc05c28bb4a35ffad",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2c478f1d16f10d3e78b4ff7b32141165d6dd1bc7482b3681b7768546d25db151",
-				"dweb:/ipfs/QmPxmx9qTW9pruiazXsiYBFADue7A1591YNo3tdemRdpZQ"
+				"bzz-raw://c5c0c5f5afdc60a88c774c71425f421601aab281d58a83c871357a23eedeafe1",
+				"dweb:/ipfs/Qmb7YCBB1gjXsyEwzie3FpYSkD8isGbUYagixh5hTrFT6N"
 			]
 		}
 	},

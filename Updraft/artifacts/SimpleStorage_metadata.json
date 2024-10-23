@@ -6,16 +6,90 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "defaultBytes",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "ToFavoriteNumber",
 				"outputs": [
 					{
-						"internalType": "bytes",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Updraft/01 Solidity variable.sol": "SimpleStorage"
+			"Updraft/05 simple storage.sol": "SimpleStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +120,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Updraft/01 Solidity variable.sol": {
-			"keccak256": "0xaca12ea3f850c826f63389093121a49dadab900fb1c00388a1a9a005871ce02c",
+		"Updraft/05 simple storage.sol": {
+			"keccak256": "0x4fbfa43ca2109f0f35b364189201cbc8a143c076f43a94396cded49f2505ce81",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b66fcf0e0b9d87b7f0fd48e1b99052dd0bc0fe563a48c041d3bd030f5c6d3bed",
-				"dweb:/ipfs/QmQtT9y4GMgqeAzSHvGNXbao7YouotQKVoS8H8vr5HCuCJ"
+				"bzz-raw://c4a85d7367b46510f759da9f856ce3c9ae29870724a6bd38770b67efa0afa2a1",
+				"dweb:/ipfs/QmPXm5HsM1mA7gh7EX3k4qLCiQr7ZeZcQznEVZnqG9jcN2"
 			]
 		}
 	},
