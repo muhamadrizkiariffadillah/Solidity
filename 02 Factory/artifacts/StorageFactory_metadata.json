@@ -97,11 +97,11 @@
 	},
 	"sources": {
 		"02 Factory/simple_storage.sol": {
-			"keccak256": "0x4fbfa43ca2109f0f35b364189201cbc8a143c076f43a94396cded49f2505ce81",
+			"keccak256": "0xe517e9e27768ae308ebc4ce4c5c0541ba44c9e6c4da4c637cc6ba49b3411ee40",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c4a85d7367b46510f759da9f856ce3c9ae29870724a6bd38770b67efa0afa2a1",
-				"dweb:/ipfs/QmPXm5HsM1mA7gh7EX3k4qLCiQr7ZeZcQznEVZnqG9jcN2"
+				"bzz-raw://a5f0ada480fc685462bd66a4551cb194b8208898b3687caec08b338542303c84",
+				"dweb:/ipfs/QmZAU9wJVLhvzvnHEH6cJfNA5yAJ3KnYvBAKgAbViytKXz"
 			]
 		},
 		"02 Factory/storage_factory.sol": {
